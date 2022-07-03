@@ -344,7 +344,7 @@ function shareText(score) {
     }
     SubmitResults();
     if (score <= 30) return '便你太美';
-    if (score <= 60) return '便你太太美';
+    if (score <= 60) return '打个胶先';
     if (score <= 100) return '草b战士';
     if (score <= 150) return '我要草b';
     return '你就是便桑本人？';
